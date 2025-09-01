@@ -12,7 +12,7 @@ from streamlit_option_menu import option_menu
 
 diabetes_model=pickle.load(open("C:/Users/sait6/Downloads/diabetes_prediction.sav",'rb'))
 heart_model=pickle.load(open("C:/Users/sait6/Downloads/heart_disease_prediction.sav",'rb'))
-cancer_model=pickle.load(open("C:/Users/sait6/Downloads/breast_cancer_prediction (1).sav",'rb'))
+cancer_model=pickle.load(open("multiple disease prediction/breast_cancer_prediction (1).sav",'rb'))
 
 #sidebar of navigation
 with st.sidebar:
@@ -165,4 +165,5 @@ if (selected=='Heart Disease Prediction'):
         
         
         
+
     
